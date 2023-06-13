@@ -1,7 +1,7 @@
 import storage from 'redux-persist/lib/storage';
 import { persistReducer } from 'redux-persist';
 import { createSlice } from '@reduxjs/toolkit';
-import initialContacts from '../../initialData/contacts';
+import initialContacts from '../initialData/contacts';
 
 const constactsSlice = createSlice({
   name: 'contacts',
